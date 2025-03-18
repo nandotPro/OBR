@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -52,8 +53,32 @@ func main() {
 		data[location] = measurement
 	}
 
-	for name, measurement := range data {
-		avg := measurement.Sum / float64(measurement.Count)
-		fmt.Printf("%s: min=%.1f, max=%.1f, avg=%.1f\n", name, measurement.Min, measurement.Max, avg)
+	// Cria uma slice com os nomes das localizações
+	locations := make([]string, 0, len(data))
+	for location := range data {
+		locations = append(locations, location)
 	}
+
+	// Ordena a slice alfabeticamente
+	sort.Strings(locations)
+
+	// Exibe os dados no formato {Location=min,avg,max, ...}
+	fmt.Print("{")
+	for i, location := range locations {
+		measurement := data[location]
+		avg := measurement.Sum / float64(measurement.Count)
+
+		// Adiciona vírgula entre as localizações, exceto para a última
+		if i > 0 {
+			fmt.Print(", ")
+		}
+
+		fmt.Printf("%s=%.1f,%.1f,%.1f",
+			location,
+			measurement.Min,
+			avg,
+			measurement.Max,
+		)
+	}
+	fmt.Println("}")
 }
