@@ -4,4 +4,3 @@ Noruega;-7.5
 Rio de janeiro;31.2
 Rio de janeiro;19.8
 São Paulo;21.5
-
