@@ -24,16 +24,20 @@ func main() {
 	}
 	defer measurements.Close()
 
-	data := make(map[string]Measurement)
+	// Pré-alocando o mapa com um tamanho estimado
+	data := make(map[string]Measurement, 500)
 
+	// Aumentando o buffer do scanner
 	scanner := bufio.NewScanner(measurements)
+	const bufferSize = 256 * 1024 // 256KB
+	buf := make([]byte, bufferSize)
+	scanner.Buffer(buf, bufferSize)
+
 	for scanner.Scan() {
 		rawData := scanner.Text()
-		semicolon := strings.Index(rawData, ";")
-		location := rawData[:semicolon]
-		rawTemp := rawData[semicolon+1:]
-
-		temp, _ := strconv.ParseFloat(rawTemp, 64)
+		parts := strings.Split(rawData, ";")
+		location := parts[0]
+		temp, _ := strconv.ParseFloat(parts[1], 64)
 
 		measurement, ok := data[location]
 		if !ok {
