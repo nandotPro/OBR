@@ -1,6 +1,170 @@
-Rio de janeiro;25.5
-São Paulo;18.7
-Noruega;-7.5
-Rio de janeiro;31.2
-Rio de janeiro;19.8
+Rio de Janeiro;32.5
+Rio de Janeiro;28.7
+Rio de Janeiro;30.2
+Rio de Janeiro;31.8
+Rio de Janeiro;29.5
+Rio de Janeiro;33.2
+Rio de Janeiro;27.8
+Rio de Janeiro;30.9
+Rio de Janeiro;32.1
+Rio de Janeiro;28.4
+São Paulo;24.5
+São Paulo;21.8
+São Paulo;23.4
+São Paulo;22.7
+São Paulo;25.1
+São Paulo;20.9
+São Paulo;24.8
+São Paulo;23.2
 São Paulo;21.5
+São Paulo;24.2
+Tokyo;16.2
+Tokyo;18.5
+Tokyo;15.7
+Tokyo;17.8
+Tokyo;19.2
+Tokyo;16.8
+Tokyo;15.4
+Tokyo;18.9
+Tokyo;17.2
+Tokyo;16.5
+Dubai;45.8
+Dubai;43.2
+Dubai;44.5
+Dubai;46.2
+Dubai;42.8
+Dubai;45.1
+Dubai;43.7
+Dubai;44.9
+Dubai;42.5
+Dubai;45.4
+Moscow;-12.5
+Moscow;-15.8
+Moscow;-10.2
+Moscow;-13.7
+Moscow;-11.9
+Moscow;-14.5
+Moscow;-12.8
+Moscow;-16.2
+Moscow;-11.5
+Moscow;-13.2
+New York;8.5
+New York;6.2
+New York;5.8
+New York;7.9
+New York;4.5
+New York;8.2
+New York;6.8
+New York;5.2
+New York;7.4
+New York;6.5
+Paris;12.4
+Paris;10.8
+Paris;11.5
+Paris;13.2
+Paris;9.8
+Paris;12.7
+Paris;11.2
+Paris;10.5
+Paris;13.8
+Paris;11.9
+London;8.2
+London;7.5
+London;6.8
+London;9.1
+London;7.2
+London;8.5
+London;6.4
+London;7.8
+London;8.9
+London;7.1
+Beijing;2.5
+Beijing;0.8
+Beijing;-1.2
+Beijing;1.8
+Beijing;-0.5
+Beijing;2.2
+Beijing;0.4
+Beijing;-1.8
+Beijing;1.5
+Beijing;0.2
+Sydney;28.5
+Sydney;26.8
+Sydney;27.4
+Sydney;29.2
+Sydney;25.7
+Sydney;28.1
+Sydney;26.4
+Sydney;27.8
+Sydney;28.9
+Sydney;26.2
+Cairo;38.5
+Cairo;36.8
+Cairo;37.4
+Cairo;39.2
+Cairo;35.9
+Cairo;38.1
+Cairo;37.2
+Cairo;36.5
+Cairo;38.8
+Cairo;37.6
+Mumbai;33.5
+Mumbai;32.8
+Mumbai;34.2
+Mumbai;31.9
+Mumbai;33.8
+Mumbai;32.4
+Mumbai;34.5
+Mumbai;33.1
+Mumbai;32.7
+Mumbai;34.8
+Singapore;31.5
+Singapore;30.8
+Singapore;31.2
+Singapore;30.4
+Singapore;31.8
+Singapore;30.2
+Singapore;31.6
+Singapore;30.9
+Singapore;31.4
+Singapore;30.6
+Buenos Aires;28.5
+Buenos Aires;26.4
+Buenos Aires;27.8
+Buenos Aires;25.9
+Buenos Aires;28.2
+Buenos Aires;26.8
+Buenos Aires;27.4
+Buenos Aires;28.7
+Buenos Aires;26.2
+Buenos Aires;27.9
+Mexico City;23.5
+Mexico City;21.8
+Mexico City;22.4
+Mexico City;23.9
+Mexico City;21.2
+Mexico City;22.8
+Mexico City;23.2
+Mexico City;21.5
+Mexico City;22.9
+Mexico City;23.4
+Toronto;-5.5
+Toronto;-8.2
+Toronto;-6.8
+Toronto;-7.4
+Toronto;-5.9
+Toronto;-8.5
+Toronto;-6.2
+Toronto;-7.8
+Toronto;-5.2
+Toronto;-7.1
+Oslo;-2.5
+Oslo;-4.8
+Oslo;-3.2
+Oslo;-5.1
+Oslo;-2.8
+Oslo;-4.2
+Oslo;-3.7
+Oslo;-5.4
+Oslo;-2.9
+Oslo;-4.5
